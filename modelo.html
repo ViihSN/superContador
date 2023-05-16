@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="modelo.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Super Contador</h1>
+    </header>
+    <section>
+        <div id="inicio">
+            <p> Inicío: 
+                <input type="number" name="inicio" id="ini" min="0">
+            </p>
+            <p> Fim: 
+                <input type="number" name="fim" id="fi" min="0">
+            </p>
+            <p> Passo: 
+                <input type="number" name="passo" id="pas" min="0">
+            </p>
+            <p>
+                <input type="button" value="contar" onclick="contar()">
+            </p>
+           
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Praticando</p>
+    </footer>
+    <script src="modelo.js"></script>
+</body>
+</html>
